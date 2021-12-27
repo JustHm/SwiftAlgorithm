@@ -10,6 +10,7 @@
 		22273AFF2757955E00CA58DD /* printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22273AFE2757955E00CA58DD /* printer.swift */; };
 		225EDA6D275764B700788793 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EDA6C275764B700788793 /* main.swift */; };
 		22D4E5CD277A040300DDFF5B /* blackJack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D4E5CC277A040300DDFF5B /* blackJack.swift */; };
+		22D4E5CF277A0EED00DDFF5B /* 2231.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D4E5CE277A0EED00DDFF5B /* 2231.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		225EDA69275764B700788793 /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		225EDA6C275764B700788793 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22D4E5CC277A040300DDFF5B /* blackJack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackJack.swift; sourceTree = "<group>"; };
+		22D4E5CE277A0EED00DDFF5B /* 2231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2231.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				22D4E5CC277A040300DDFF5B /* blackJack.swift */,
+				22D4E5CE277A0EED00DDFF5B /* 2231.swift */,
 			);
 			path = Baekjoon;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D4E5CF277A0EED00DDFF5B /* 2231.swift in Sources */,
 				225EDA6D275764B700788793 /* main.swift in Sources */,
 				22273AFF2757955E00CA58DD /* printer.swift in Sources */,
 				22D4E5CD277A040300DDFF5B /* blackJack.swift in Sources */,
