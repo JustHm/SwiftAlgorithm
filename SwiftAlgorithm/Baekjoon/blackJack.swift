@@ -12,8 +12,8 @@ func blackJack() {
     //5 6 7 8 9
     //[10, 500]
     //[93, 181, 245, 214, 315, 36, 185, 138, 216, 295]
-    var info: [Int] = readLine()!.split(separator: " ").map{Int($0)!}
-    var card: [Int] = readLine()!.split(separator: " ").map{Int($0)!}.sorted(by: <)
+    let info: [Int] = readLine()!.split(separator: " ").map{Int($0)!}
+    let card: [Int] = readLine()!.split(separator: " ").map{Int($0)!}.sorted(by: <)
     var answer: Int = 0
 
     for first in 0..<info[0] {

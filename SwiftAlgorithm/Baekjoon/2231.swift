@@ -8,7 +8,7 @@
 import Foundation
 
 func divideSum() {
-    var input = Int(readLine()!)!
+    let input = Int(readLine()!)!
     var answer = 0
     var sum = 0
 
