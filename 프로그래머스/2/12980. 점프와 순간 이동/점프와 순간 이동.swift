@@ -1,20 +1,28 @@
 import Foundation
 
+// 새로운 방식
+// N을 이진수로 변경하고 1을 세면 결과값과 동일함
 func solution(_ n:Int) -> Int {
-    var n = n
-    var ans = 1
-    while n > 1 {
-        if n % 2 == 0 {
-            n /= 2
-        }
-        else {
-            n -= 1
-            ans += 1
-        }
-    }
-    return ans
+    return n.nonzeroBitCount
 }
 
+// Greedy 방식 통과
+// func solution(_ n:Int) -> Int {
+//     var n = n
+//     var ans = 1
+//     while n > 1 {
+//         if n % 2 == 0 {
+//             n /= 2
+//         }
+//         else {
+//             n -= 1
+//             ans += 1
+//         }
+//     }
+//     return ans
+// }
+
+// DP 방식 효율성 0점
 // func solution(_ n:Int) -> Int {
 //     var arr = [0, 1, 1]
 //     guard n > 2 else { return arr[n] }
